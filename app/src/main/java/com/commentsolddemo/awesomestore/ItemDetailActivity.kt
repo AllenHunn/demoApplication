@@ -25,6 +25,8 @@ class ItemDetailActivity : AppCompatActivity() {
             lifecycleScope.launch {
                 val productHandler = ProductHandler()
                 val product = fragment.getProduct()
+
+                // There seems to be a bug in the serverside code, product_type is not being persisted
                 product?.let {
                     if (isNew)
                         productHandler.create(it)
