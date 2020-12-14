@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Awesome Store</string>
+    <string name="title_item_detail"></string>
+    <string name="title_activity_login">Login</string>
+    <string name="product_name_label">Name:</string>
+    <string name="product_description_label">Description:</string>
+    <string name="style_label">Style:</string>
+    <string name="brand_label">Brand:</string>
+    <string name="url_label">Url:</string>
+    <string name="shipping_price_label">Shipping Price:</string>
+    <string name="note_label">Note:</string>
+    <string name="admin_id">Admin ID:</string>
+    <string name="product_type_label">Product Type:</string>
+    <string name="default_product_type">clothing</string>
+</resources>
